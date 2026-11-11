@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 const infoSchema = new mongoose.Schema({
-  durasi  : Number,
-  catatan: Number,
+  durasi  : String,
+  catatan : String,
 }, { _id: false });
 
 const layanansalonSchema = new mongoose.Schema({
